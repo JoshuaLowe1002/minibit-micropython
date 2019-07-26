@@ -18,7 +18,7 @@ robot.stop() #Make the stop with the brake
 
 robot.backward(600) #Make the robot reverse at speed 600
 sleep(1000) #Sleep for 1 second
-robot.stop(brake=False) #Make the stop without the brake
+robot.stop(brake=False) #Make the robot stop without the brake
 
 while True: #Create a "forever" loop
     display.scroll(robot.sonar_cm()) #Scroll the distance read by the sonar sensor in cm
