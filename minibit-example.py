@@ -24,9 +24,3 @@ while True: #Create a "forever" loop
     display.scroll(robot.sonar_cm()) #Scroll the distance read by the sonar sensor in cm
     sleep(500) #Sleep for half a second
     display.scroll(robot.sonar_mm()) #Scroll the distance read by the sonar sensor in mm
-
-
-
-
-
-
