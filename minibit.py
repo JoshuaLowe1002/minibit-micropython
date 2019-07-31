@@ -85,5 +85,5 @@ class miniBit:
             pass
         end = ticks_us()
         echo = end-start
-        distance = int(0.01715 * echo/1000)
+        distance = int(0.01715 * echo*10)
         return distance
